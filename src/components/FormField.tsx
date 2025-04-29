@@ -52,7 +52,7 @@ const FormField: React.FC<FormFieldProps> = ({ field, value, error, onChange }) 
         placeholder={field.placeholder || "Enter value"}
         value={value}
         onChange={handleChange}
-        data-testid={field.dataTestId}
+        data-testid={dataTestId}
         className={error ? "border-red-500" : ""}
       />
     );
